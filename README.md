@@ -14,12 +14,13 @@ Humans have two hippocampi, one in each hemisphere of the brain. They are locate
 
 According to Nobis et al., 2019, the volume of hippocampus varies in a population, depending on various parameters, within certain boundaries, and it is possible to identify a "normal" range taking into account age, sex and brain hemisphere.
 
-You can see this in the image below where the right hippocampal volume of women across ages 52 - 71 is shown.![Screenshot 2023-08-24 at 10 45 54 AM](https://github.com/hungryPanko/3D_CV_hippocampal_volume/assets/101350589/fba79b62-e6bf-4020-9752-333d446965fc)
+You can see this in the image below where the right hippocampal volume of women across ages 52 - 71 is shown.
+![Screenshot 2023-08-24 at 10 45 54 AM](https://github.com/hungryPanko/3D_CV_hippocampal_volume/assets/101350589/fba79b62-e6bf-4020-9752-333d446965fc)
 
 There is one problem with measuring the volume of the hippocampus using MRI scans, though - namely, the process tends to be quite tedious since every slice of the 3D volume needs to be analyzed, and the shape of the structure needs to be traced. The fact that the hippocampus has a non-uniform shape only makes it more challenging. Do you think you could spot the hippocampi in this axial slice below?
 
 ![Screenshot 2023-08-24 at 10 46 26 AM](https://github.com/hungryPanko/3D_CV_hippocampal_volume/assets/101350589/97216bb9-6558-475c-97d7-34a22364ec21)
-n this project, we will focus on the technical aspects of building a segmentation model and integrating it into the clinician's workflow, leaving the dataset curation and model validation questions largely outside the scope of this project.
+In this project, we will focus on the technical aspects of building a segmentation model and integrating it into the clinician's workflow, leaving the dataset curation and model validation questions largely outside the scope of this project.
 
 ### Project Overview
 This project has end-to-end AI system which features a machine learning algorithm that integrates into a clinical-grade viewer and automatically measures hippocampal volumes of new patients, as their studies are committed to the clinical imaging archive.
